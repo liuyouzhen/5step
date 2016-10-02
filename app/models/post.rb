@@ -1,7 +1,7 @@
 class Post < ApplicationRecord
-  belongs_to :User
-  belongs_to :Group
+  belongs_to :user
+  belongs_to :group
 
-  validates :content,prsence: true
+  validates :content, presence: true
 
 end
